@@ -15,13 +15,18 @@ namespace TestAttribute
     {
         static void Main(string[] args)
         {
+            //方式1
+            Custom.TEST_CUSTOM();
+
+            //方式2
             DisplayRunningMessage();
             DisplayDebugMessage();
 
+            //
             MessageBox(0, "Hello", "Message", 0);
 
-            Console.ReadLine();
 
+            Console.ReadLine();
         }
 
 
