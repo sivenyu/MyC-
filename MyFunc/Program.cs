@@ -3,20 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
 
-namespace TestEvent
+namespace MyFunc
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //MyObserver.TEST_OBSERVER();
+            MyFunc1 func1 = new MyFunc1();
+            func1.TEST_FUNC1();
 
-
-
-            MyEventHandler eTest = new MyEventHandler();
-            eTest.TEST_EVENTHANDLER();
 
 
             Console.ReadKey();
